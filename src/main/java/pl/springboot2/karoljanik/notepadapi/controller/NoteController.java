@@ -29,6 +29,11 @@ public class NoteController {
         return noteService.getAllNotes();
     }
 
+    @GetMapping(path = "{id}")
+    public Note getById(@PathVariable("id") Long id) {
+        return noteService.findById(id);
+    }
+
     @PutMapping(path = "{id}")
     public void editNoteById(@PathVariable("id") Long id, @RequestBody Note note) {
         noteService.editNoteById(id, note);

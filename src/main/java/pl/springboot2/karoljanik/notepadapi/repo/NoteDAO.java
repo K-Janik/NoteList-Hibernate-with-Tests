@@ -1,12 +1,11 @@
 package pl.springboot2.karoljanik.notepadapi.repo;
 
-import org.aspectj.weaver.ast.Not;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
 import pl.springboot2.karoljanik.notepadapi.model.Note;
 
 import java.util.List;
+import java.util.Optional;
 
 @Component
 public class NoteDAO {
@@ -26,8 +25,12 @@ public class NoteDAO {
         return noteRepo.findAll();
     }
 
+    public Optional<Note> findById(Long id) {
+        return noteRepo.findById(id);
+    }
+
     public void editNoteById(Long id, Note note) {
-        noteRepo.editNoteById(note.getText(),id);
+       noteRepo.editNoteById(note.getText(),id);
     }
 
     public void deleteNoteById(Long id) {
