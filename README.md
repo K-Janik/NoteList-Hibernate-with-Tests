@@ -14,7 +14,7 @@
 - Integration Tests
 - DockerDB
 - Flyway
-- Mockito
+- Spring Boot Test
 
 
 ## Features
