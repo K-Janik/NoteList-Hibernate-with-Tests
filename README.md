@@ -14,6 +14,7 @@
 - Integration Tests
 - DockerDB
 - Flyway
+- Mockito
 
 
 ## Features
