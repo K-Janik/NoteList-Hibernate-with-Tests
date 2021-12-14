@@ -1,6 +1,6 @@
 # Notes List with Integration Tests
 
-> This is modified NoteList-Hibernate with Integration Tests and two configurations: production and test. Tests are using PostgreSQL database connected via DockerDB.    
+> This is modified NoteList-Hibernate with Integration Tests and two Configurations: production and test. Tests are using PostgreSQL database connected via DockerDB.    
 
 <img src="https://imgupload.pl/images/2021/12/14/NotesJPA.png" alt="NotesJPA.png" border="0" />
 
