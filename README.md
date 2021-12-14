@@ -21,4 +21,4 @@
 - Adding new Notes
 - Editing Notes
 - Deleting Notes
-- Test and Production Configurations
+- Tests and Production Configurations
